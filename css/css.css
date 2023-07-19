@@ -266,60 +266,64 @@ nav li a {
 
 }
 
+.online-games-text h3 {
+    font-size: 48px;
+
+}
+
+.online-games-text span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-text p {
+    color: #534C64;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
 .online-games-cart {
     display: flex;
-    max-width: 75%;
-    text-align: center;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .online-games-cart img {
     padding: 24px;
 }
 
-.cart-1 {
-    width: 25%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cart-2 {
-    width: 25%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.cart-3 {
-    width: 25%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
+.cart-1,
+.cart-2,
+.cart-3,
 .cart-4 {
-    width: 25%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.online-games-cart p {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.cart-1 img {
+.cart-1 p,
+.cart-2 p,
+.cart-3 p,
+.cart-4 p {
+    max-width: 303px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.cart-1 img,
+.cart-2 img,
+.cart-3 img,
+.cart-4 img {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: auto;
+    max-height: 350px;
 }
 
 /* Online-game section ends here */
