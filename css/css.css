@@ -312,7 +312,6 @@ nav li a {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-
 }
 
 .cart-1 img,
@@ -334,30 +333,49 @@ nav li a {
 
 .feature-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 100%;
+    margin-top: 75px;
 }
 
 .feature-left-container {
     width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+
+.feature-left h3 {
+    font-size: 48px;
+    line-height: 60px;
+    text-align: end;
+}
+
+.feature-left p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 353px;
+    margin-top: 24px;
+}
 
 
+.feature-left span {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .feature-right-container {
-    width: 50%;
 
 }
 
 .feature-right-container {}
 
-.feature-left>p {
-    width: 354px;
-}
 
 .image-1 {
     height: 90%;
