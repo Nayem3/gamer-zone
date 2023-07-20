@@ -323,6 +323,14 @@ nav li a {
     max-height: 350px;
 }
 
+.cart-1 img:hover,
+.cart-2 img:hover,
+.cart-3 img:hover,
+.cart-4 img:hover {
+    opacity: 0.4;
+}
+
+
 /* Online-game section ends here */
 
 
@@ -401,6 +409,7 @@ nav li a {
     display: flex;
     align-items: center;
     margin-top: 190px;
+    margin-left: 120px;
 }
 
 .feature-left-container-sec2 {
@@ -588,3 +597,27 @@ nav li a {
 
 
 /* footer section is end here */
+
+
+/* Responsive css start from here */
+@media (min-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-right-container {
+        flex-direction: column;
+    }
+
+    .nav-right {
+        flex-direction: column;
+
+    }
+
+    .nav-right-two {
+        margin-top: 40px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
