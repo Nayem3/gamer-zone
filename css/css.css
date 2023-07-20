@@ -690,6 +690,22 @@ nav li a {
     .game-type-b{
         flex-direction: column;
     }
+    .footer-container{
+        flex-direction: column;
+    }
+    .cate-footer{
+        flex-direction: column;
+    }
+    .social-footer{
+        flex-direction: column;
+    }
+    .social-footer {
+        display: inline-block;
+    }
+    .terms-footer {
+        display: inline;
+    }
+ 
  
     
 }
