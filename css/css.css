@@ -471,6 +471,25 @@ nav li a {
     flex-direction: column;
 }
 
+.game-type-container p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.game-type-container img {
+    max-width: 60px;
+    max-height: 60px;
+    display: flex;
+    margin: auto;
+}
+
 .game-type-a {
     display: flex;
     justify-content: space-evenly;
@@ -483,6 +502,20 @@ nav li a {
     margin-top: 24px;
 
 }
+
+.action-games,
+.adven-games,
+.arc-games,
+.edu-games,
+.word-games,
+.role-games,
+.music-games,
+.puzzle-games,
+.strategy-games {
+    display: flex;
+
+}
+
 
 
 /* game type section is start from here */
