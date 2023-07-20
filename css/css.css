@@ -627,7 +627,28 @@ nav li a {
         margin-left: -80px;
     }
     .banner-left-container {
-        
+       background-image: none;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-left-container img{
+        max-width: 500px;
+    }
+    .gamer-right-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gamer-left {
+        align-items: center;
+    }
+    .online-games-text h3 {
+        font-size: 34px;
+    }
+    .online-games-cart {
+        align-items: center;
+        flex-direction: column;
     }
  
     
