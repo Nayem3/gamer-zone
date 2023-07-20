@@ -329,7 +329,7 @@ nav li a {
 
 
 
-/* feature section start from here */
+/* feature section 1 start from here */
 
 .feature-container {
     display: flex;
@@ -369,25 +369,24 @@ nav li a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .feature-right-container {
-
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 76px;
 }
 
-.feature-right-container {}
-
-
 .image-1 {
-    height: 90%;
-    margin-left: 90px;
+
 }
 
 .image-2 {
     text-align: center;
     position: relative;
-    bottom: 200px;
+    bottom: -359px;
+    max-width: 318px;
+    max-height: 365px;
+    margin-right: -180px;
 }
-
 .feature-left {
     display: flex;
     flex-direction: column;
@@ -395,4 +394,9 @@ nav li a {
     align-items: center;
 }
 
+/* Feature section 1 end here */
+
 /* feature section 2 start from here */
+
+
+/* Feature section 2 end here */
