@@ -459,3 +459,30 @@ nav li a {
 
 
 /* Feature section 2 end here */
+
+/* game type section is start from here */
+
+.game-type-container {
+    margin-top: 150px;
+    height: 430px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-type-a {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.game-type-b {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px;
+
+}
+
+
+/* game type section is start from here */
