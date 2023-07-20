@@ -600,7 +600,7 @@ nav li a {
 
 
 /* Responsive css start from here */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     nav {
         flex-direction: column;
     }
@@ -621,3 +621,14 @@ nav li a {
     .banner-container {
         flex-direction: column-reverse;
     }
+    .banner-right-container img{
+        max-height: 400px;
+        margin-top: 150px;
+        margin-left: -80px;
+    }
+    .banner-left-container {
+        
+    }
+ 
+    
+}
