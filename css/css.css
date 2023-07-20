@@ -650,6 +650,46 @@ nav li a {
         align-items: center;
         flex-direction: column;
     }
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-left {
+        align-items: center;
+    }
+    .feature-left h3{
+       text-align: center;
+    }
+    .feature-left p {
+        text-align: center;
+    }
+    .image-1{
+        max-height: 400px;
+    }
+    .image-2{
+        max-height: 200px;
+    }
+    .feature-container-sec2{
+        flex-direction: column;
+    }
+    .image-1-sec2{
+        max-height: 400px;
+    }
+    .image-2-sec2{
+        max-height: 200px;
+    }
+    .feature-left-container-sec2{
+        width: 100%;
+        margin-top: 190px;
+    }
+    .game-type-container{
+        flex-direction: column;
+    }
+    .game-type-a{
+        flex-direction: column;
+    }
+    .game-type-b{
+        flex-direction: column;
+    }
  
     
 }
