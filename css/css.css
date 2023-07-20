@@ -621,91 +621,128 @@ nav li a {
     .banner-container {
         flex-direction: column-reverse;
     }
-    .banner-right-container img{
+
+    .banner-right-container img {
         max-height: 400px;
         margin-top: 150px;
         margin-left: -80px;
     }
+
     .banner-left-container {
-       background-image: none;
+        background-image: none;
     }
-    .gamer-container{
+
+    .gamer-container {
         flex-direction: column;
     }
-    .gamer-left-container img{
+
+    .gamer-left-container img {
         max-width: 500px;
     }
-    .gamer-right-container{
+
+    .gamer-right-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .gamer-left {
         align-items: center;
     }
+
     .online-games-text h3 {
         font-size: 34px;
     }
+
     .online-games-cart {
         align-items: center;
         flex-direction: column;
     }
-    .feature-container{
+
+    .feature-container {
         flex-direction: column;
     }
+
     .feature-left {
         align-items: center;
     }
-    .feature-left h3{
-       text-align: center;
+
+    .feature-left h3 {
+        text-align: center;
     }
+
     .feature-left p {
         text-align: center;
     }
-    .image-1{
+
+    .image-1 {
         max-height: 400px;
     }
-    .image-2{
+
+    .image-2 {
         max-height: 200px;
     }
-    .feature-container-sec2{
+
+    .feature-container-sec2 {
         flex-direction: column;
     }
-    .image-1-sec2{
+
+    .image-1-sec2 {
         max-height: 400px;
     }
-    .image-2-sec2{
+
+    .image-2-sec2 {
         max-height: 200px;
     }
-    .feature-left-container-sec2{
+
+    .feature-left-container-sec2 {
         width: 100%;
         margin-top: 190px;
     }
-    .game-type-container{
+
+    .game-type-container {
         flex-direction: column;
     }
-    .game-type-a{
+
+    .game-type-a {
         flex-direction: column;
     }
-    .game-type-b{
+
+    .game-type-b {
         flex-direction: column;
     }
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
     }
-    .cate-footer{
+
+    .cate-footer {
         flex-direction: column;
     }
-    .social-footer{
+
+    .social-footer {
         flex-direction: column;
     }
+
     .social-footer {
         display: inline-block;
     }
+
     .terms-footer {
         display: inline;
     }
- 
- 
-    
-}
+
+    .action-games,
+    .adven-games,
+    .arc-games,
+    .edu-games,
+    .word-games,
+    .role-games,
+    .music-games,
+    .puzzle-games,
+    .strategy-games {
+        display: none;
+
+    }
+    .game-type-container {
+        display: none;
